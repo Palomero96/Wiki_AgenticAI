@@ -1,0 +1,43 @@
+site_name: Wiki AgenticAI
+site_url: https://palomero96.github.io/Wiki_AgenticAI/
+site_author: Palomero96
+site_description: AgenticAI Wiki
+repo_url: https://github.com/Palomero96/Wiki_AgenticAI
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - mathjax
+  palette:
+      - scheme: slate
+        primary: indigo
+
+nav:
+  
+  - Foundations:
+    - NLP: foundations/nlp.md
+    - AgenticAI: foundations/definition.md
+    - Reasoning Engine: foundations/reasoningengine.md
+    - System prompt and ReAct: foundations/systemprompt&react.md
+
+  - RAG:
+    - Basics: rag/tokens_embeddings_vectores_nlp.md
+
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - extra
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+plugins:
+  - search
+
+
